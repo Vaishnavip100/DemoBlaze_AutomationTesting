@@ -11,8 +11,6 @@ This project is a **Selenium + Java Test Automation Framework** built using:
 * Extent Reports
 * Excel Data-Driven Testing
 
-It automates end-to-end test scenarios for the DemoBlaze e-commerce application.
-
 ---
 
 ## 🚀 Features
