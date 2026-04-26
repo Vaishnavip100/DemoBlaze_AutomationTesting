@@ -143,7 +143,7 @@ DemoBlaze/
 browser=chrome
 baseUrl=https://www.demoblaze.com
 timeout=10
-headless=trew
+headless=true
 username=uour_username
 password=your_password
 ```
