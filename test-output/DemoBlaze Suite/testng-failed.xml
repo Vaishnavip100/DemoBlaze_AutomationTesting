@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [DemoBlaze Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="listeners.RetryListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Product Tests(failed)">
+    <classes>
+      <class name="tests.ProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLaptopsCategoryProducts"/>
+        </methods>
+      </class> <!-- tests.ProductTest -->
+    </classes>
+  </test> <!-- Product Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Cart Tests(failed)">
+    <classes>
+      <class name="tests.CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyDeleteProductFromCart"/>
+        </methods>
+      </class> <!-- tests.CartTest -->
+    </classes>
+  </test> <!-- Cart Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Order Tests(failed)">
+    <classes>
+      <class name="tests.OrderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyOrderWithEmptyFields"/>
+        </methods>
+      </class> <!-- tests.OrderTest -->
+    </classes>
+  </test> <!-- Order Tests(failed) -->
+</suite> <!-- Failed suite [DemoBlaze Suite] -->

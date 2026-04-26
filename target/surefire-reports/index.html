@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoBlaze_Suite" class="navigator-link">
+              <span class="suite-name border-skipped">DemoBlaze Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoBlaze_Suite" class="navigator-link ">
+                    <span>C:\Users\91996\OneDrive\Desktop\AT\DemoBlaze\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoBlaze_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoBlaze_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoBlaze_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,  3 skipped,  18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="hide-methods skipped suite-DemoBlaze_Suite"> (hide)</a> <!-- hide-methods skipped suite-DemoBlaze_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="show-methods skipped suite-DemoBlaze_Suite"> (show)</a> <!-- show-methods skipped suite-DemoBlaze_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-DemoBlaze_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="verifyAddSingleProductToCart">verifyAddSingleProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.OrderTest" class="method navigator-link" hash-for-method="verifyOrderWithEmptyFields">verifyOrderWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="verifyProductDetailsForSelectedProduct">verifyProductDetailsForSelectedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DemoBlaze_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="hide-methods passed suite-DemoBlaze_Suite"> (hide)</a> <!-- hide-methods passed suite-DemoBlaze_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="show-methods passed suite-DemoBlaze_Suite"> (show)</a> <!-- show-methods passed suite-DemoBlaze_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoBlaze_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="verifyAddSingleProductToCart">verifyAddSingleProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="verifyAddTwoProductsToCart">verifyAddTwoProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="verifyDeleteProductFromCart">verifyDeleteProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="verifyHomeReloadsAllProducts">verifyHomeReloadsAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="verifyLaptopsCategoryProducts">verifyLaptopsCategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="verifyLogin(testuser, 1234.0, failure)">verifyLogin(testuser, 1234.0, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="verifyLogin(VaishnaviP, Password123, success)">verifyLogin(VaishnaviP, Password123, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.FormValidationTest" class="method navigator-link" hash-for-method="verifyLoginWithEmptyUsername">verifyLoginWithEmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="verifyLogout">verifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.OrderTest" class="method navigator-link" hash-for-method="verifyOrderIdInConfirmation">verifyOrderIdInConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.OrderTest" class="method navigator-link" hash-for-method="verifyOrderWithEmptyFields">verifyOrderWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="verifyPhonesCategoryProducts">verifyPhonesCategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.ProductTest" class="method navigator-link" hash-for-method="verifyProductDetailsForSelectedProduct">verifyProductDetailsForSelectedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="verifySignup">verifySignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.FormValidationTest" class="method navigator-link" hash-for-method="verifySignupFieldsRetainValues">verifySignupFieldsRetainValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.FormValidationTest" class="method navigator-link" hash-for-method="verifySignupWithExistingUser">verifySignupWithExistingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.OrderTest" class="method navigator-link" hash-for-method="verifySuccessfulOrderPlacement">verifySuccessfulOrderPlacement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="verifyTotalPriceAfterDeletion">verifyTotalPriceAfterDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoBlaze_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoBlaze_Suite" class="panel DemoBlaze_Suite">
+          <div class="suite-DemoBlaze_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderWithEmptyFields">
+                  </a> <!-- verifyOrderWithEmptyFields -->
+                  <span class="method-name">verifyOrderWithEmptyFields</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00b0bc7b21ae48c76c0a45035b113d74, clickElement {id=f.7CE9340391D697945646E30548DBEE5E.d.140560FFFD206F7506E2055E00E661FE.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56444}, goog:processID: 32796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56444/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (00b0bc7b21ae48c76c0a45035b113d74)] -&gt; xpath: //a[text()=&apos;Samsung galaxy s6&apos;]]
+Session ID: 00b0bc7b21ae48c76c0a45035b113d74
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at base.BasePage.click(BasePage.java:33)
+	at pages.ProductPage.selectProductByName(ProductPage.java:54)
+	at tests.OrderTest.verifyOrderWithEmptyFields(OrderTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-skipped -->
+          <div class="suite-DemoBlaze_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetailsForSelectedProduct">
+                  </a> <!-- verifyProductDetailsForSelectedProduct -->
+                  <span class="method-name">verifyProductDetailsForSelectedProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf6972490c2ef74f902567147c5231e7, clickElement {id=f.787A5EF12E222525C96029352E638097.d.C8DE7ADB5CBDFB07FBC8B656E5D1C7AB.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55609}, goog:processID: 24088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55609/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bf6972490c2ef74f902567147c5231e7)] -&gt; xpath: //a[text()=&apos;Samsung galaxy s6&apos;]]
+Session ID: bf6972490c2ef74f902567147c5231e7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at base.BasePage.click(BasePage.java:33)
+	at pages.ProductPage.selectProductByName(ProductPage.java:54)
+	at tests.ProductTest.verifyProductDetailsForSelectedProduct(ProductTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-skipped -->
+          <div class="suite-DemoBlaze_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddSingleProductToCart">
+                  </a> <!-- verifyAddSingleProductToCart -->
+                  <span class="method-name">verifyAddSingleProductToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c063556e8dc23389ba7cdafffdfd820c, clickElement {id=f.A5929C8A9C1CFFF6CE0FF72FEA3EE2B0.d.84F40DA0D5DDC51EA48BB91136BCB06A.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.116, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\91996\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52402}, goog:processID: 34484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52402/devtoo..., se:cdpVersion: 147.0.7727.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c063556e8dc23389ba7cdafffdfd820c)] -&gt; xpath: //a[text()=&apos;Samsung galaxy s6&apos;]]
+Session ID: c063556e8dc23389ba7cdafffdfd820c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at base.BasePage.click(BasePage.java:33)
+	at pages.ProductPage.selectProductByName(ProductPage.java:54)
+	at tests.CartTest.verifyAddSingleProductToCart(CartTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-skipped -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AuthTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(testuser, 1234.0, failure)">
+                  </a> <!-- verifyLogin(testuser, 1234.0, failure) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(testuser,1234.0,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(VaishnaviP, Password123, success)">
+                  </a> <!-- verifyLogin(VaishnaviP, Password123, success) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(VaishnaviP,Password123,success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout">
+                  </a> <!-- verifyLogout -->
+                  <span class="method-name">verifyLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignup">
+                  </a> <!-- verifySignup -->
+                  <span class="method-name">verifySignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderIdInConfirmation">
+                  </a> <!-- verifyOrderIdInConfirmation -->
+                  <span class="method-name">verifyOrderIdInConfirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderWithEmptyFields">
+                  </a> <!-- verifyOrderWithEmptyFields -->
+                  <span class="method-name">verifyOrderWithEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulOrderPlacement">
+                  </a> <!-- verifySuccessfulOrderPlacement -->
+                  <span class="method-name">verifySuccessfulOrderPlacement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeReloadsAllProducts">
+                  </a> <!-- verifyHomeReloadsAllProducts -->
+                  <span class="method-name">verifyHomeReloadsAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLaptopsCategoryProducts">
+                  </a> <!-- verifyLaptopsCategoryProducts -->
+                  <span class="method-name">verifyLaptopsCategoryProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPhonesCategoryProducts">
+                  </a> <!-- verifyPhonesCategoryProducts -->
+                  <span class="method-name">verifyPhonesCategoryProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetailsForSelectedProduct">
+                  </a> <!-- verifyProductDetailsForSelectedProduct -->
+                  <span class="method-name">verifyProductDetailsForSelectedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FormValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyUsername">
+                  </a> <!-- verifyLoginWithEmptyUsername -->
+                  <span class="method-name">verifyLoginWithEmptyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignupFieldsRetainValues">
+                  </a> <!-- verifySignupFieldsRetainValues -->
+                  <span class="method-name">verifySignupFieldsRetainValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignupWithExistingUser">
+                  </a> <!-- verifySignupWithExistingUser -->
+                  <span class="method-name">verifySignupWithExistingUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddSingleProductToCart">
+                  </a> <!-- verifyAddSingleProductToCart -->
+                  <span class="method-name">verifyAddSingleProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddTwoProductsToCart">
+                  </a> <!-- verifyAddTwoProductsToCart -->
+                  <span class="method-name">verifyAddTwoProductsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteProductFromCart">
+                  </a> <!-- verifyDeleteProductFromCart -->
+                  <span class="method-name">verifyDeleteProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalPriceAfterDeletion">
+                  </a> <!-- verifyTotalPriceAfterDeletion -->
+                  <span class="method-name">verifyTotalPriceAfterDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Suite-class-passed -->
+        </div> <!-- panel DemoBlaze_Suite -->
+        <div panel-name="test-xml-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91996\OneDrive\Desktop\AT\DemoBlaze\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;DemoBlaze Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Auth Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AuthTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Auth Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Product Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Cart Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Order Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.OrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Order Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Form Validation Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FormValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Form Validation Tests --&gt;
+&lt;/suite&gt; &lt;!-- DemoBlaze Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Auth Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Product Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Order Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Form Validation Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoBlaze_Suite');
+function tableData_DemoBlaze_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLogout')
+data.setCell(0, 2, 'tests.AuthTest')
+data.setCell(0, 3, 14986);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTotalPriceAfterDeletion')
+data.setCell(1, 2, 'tests.CartTest')
+data.setCell(1, 3, 12244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddTwoProductsToCart')
+data.setCell(2, 2, 'tests.CartTest')
+data.setCell(2, 3, 10147);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyDeleteProductFromCart')
+data.setCell(3, 2, 'tests.CartTest')
+data.setCell(3, 3, 9130);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyOrderIdInConfirmation')
+data.setCell(4, 2, 'tests.OrderTest')
+data.setCell(4, 3, 8715);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySuccessfulOrderPlacement')
+data.setCell(5, 2, 'tests.OrderTest')
+data.setCell(5, 3, 7755);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyOrderWithEmptyFields')
+data.setCell(6, 2, 'tests.OrderTest')
+data.setCell(6, 3, 7538);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAddSingleProductToCart')
+data.setCell(7, 2, 'tests.CartTest')
+data.setCell(7, 3, 7455);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLogin')
+data.setCell(8, 2, 'tests.AuthTest')
+data.setCell(8, 3, 4413);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyHomeReloadsAllProducts')
+data.setCell(9, 2, 'tests.ProductTest')
+data.setCell(9, 3, 3419);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLogin')
+data.setCell(10, 2, 'tests.AuthTest')
+data.setCell(10, 3, 2652);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyProductDetailsForSelectedProduct')
+data.setCell(11, 2, 'tests.ProductTest')
+data.setCell(11, 3, 2601);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySignup')
+data.setCell(12, 2, 'tests.AuthTest')
+data.setCell(12, 3, 2325);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySignupWithExistingUser')
+data.setCell(13, 2, 'tests.FormValidationTest')
+data.setCell(13, 3, 2253);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginWithEmptyUsername')
+data.setCell(14, 2, 'tests.FormValidationTest')
+data.setCell(14, 3, 2208);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAddSingleProductToCart')
+data.setCell(15, 2, 'tests.CartTest')
+data.setCell(15, 3, 1846);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySignupFieldsRetainValues')
+data.setCell(16, 2, 'tests.FormValidationTest')
+data.setCell(16, 3, 1092);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLaptopsCategoryProducts')
+data.setCell(17, 2, 'tests.ProductTest')
+data.setCell(17, 3, 1009);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyOrderWithEmptyFields')
+data.setCell(18, 2, 'tests.OrderTest')
+data.setCell(18, 3, 969);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyProductDetailsForSelectedProduct')
+data.setCell(19, 2, 'tests.ProductTest')
+data.setCell(19, 3, 873);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyPhonesCategoryProducts')
+data.setCell(20, 2, 'tests.ProductTest')
+data.setCell(20, 3, 427);
+window.suiteTableData['DemoBlaze_Suite']= { tableData: data, tableDiv: 'times-div-DemoBlaze_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-DemoBlaze_Suite">
+              </div> <!-- times-div-DemoBlaze_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoBlaze Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoBlaze_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1202 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeReloadsAllProducts</span>
+                <span class="method-start">4734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(VaishnaviP, Password123, success)</span>
+                <span class="method-start">4780 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8338 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9495 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLaptopsCategoryProducts</span>
+                <span class="method-start">10546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11737 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(testuser, 1234.0, failure)</span>
+                <span class="method-start">11908 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyPhonesCategoryProducts</span>
+                <span class="method-start">13972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14400 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14562 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14659 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14814 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsForSelectedProduct</span>
+                <span class="method-start">17056 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout</span>
+                <span class="method-start">17497 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsForSelectedProduct</span>
+                <span class="method-start">20842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddSingleProductToCart</span>
+                <span class="method-start">25772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddSingleProductToCart</span>
+                <span class="method-start">30424 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignup</span>
+                <span class="method-start">35078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37763 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddTwoProductsToCart</span>
+                <span class="method-start">40619 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyOrderIdInConfirmation</span>
+                <span class="method-start">40917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49963 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50767 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyOrderWithEmptyFields</span>
+                <span class="method-start">52319 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52643 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53531 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteProductFromCart</span>
+                <span class="method-start">54056 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyOrderWithEmptyFields</span>
+                <span class="method-start">55823 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63187 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63361 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63416 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63555 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalPriceAfterDeletion</span>
+                <span class="method-start">65568 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulOrderPlacement</span>
+                <span class="method-start">65660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73417 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FormValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyUsername</span>
+                <span class="method-start">75153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77551 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77814 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FormValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySignupFieldsRetainValues</span>
+                <span class="method-start">79818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignupWithExistingUser</span>
+                <span class="method-start">82939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85193 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
